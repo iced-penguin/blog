@@ -1,4 +1,13 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "ペンギンのメモ帳"
 theme = "github-style"
+copyright = "© 2020. icedpenguin0504"
+
+[params]
+  author = "icedpenguin0504"
+  description = "Note to myself"
+  github = "icedpenguin0504"
+  twitter = "swimpenguin0504"
+  avatar = "https://drive.google.com/uc?export=view&id=1g8VaAqiQTN1hFGOeSpFe9xLAIy-PuR6M"
+  url = "https://example.com"
