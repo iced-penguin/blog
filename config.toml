@@ -1,4 +1,4 @@
-baseURL = "https://pensive-bohr-3332a6.netlify.app"
+baseURL = "https://penguin-note.tech"
 languageCode = "en-us"
 title = "ペンギンのメモ帳"
 theme = "github-style"
@@ -12,4 +12,4 @@ copyright = "© 2020. icedpenguin0504"
   avatar = "https://drive.google.com/uc?export=view&id=1g8VaAqiQTN1hFGOeSpFe9xLAIy-PuR6M"
 
 [permalinks]
-  posts = "/:filename/"
+  posts = "/:filename"
