@@ -1,10 +1,9 @@
 ---
-title: coc.nvimのインストール・設定
+title: coc.nvimをインストールしてみた
 date: 2020-10-10 10:23:29
 ---
 
 vimにcoc.nvimをインストールしてみたので、その方法をメモしておきます。
-また、使い方に関してもまとめておき、随時更新していきます。
 
 <!--more-->
 
@@ -63,58 +62,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 [Using coc extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
-# 設定
-
-使いたい言語の拡張を入れればそれだけで十分便利だとは思いますが、個人的に挙動を少し変更している部分を書いておきます。
-
-設定は基本的に`:CocConfig`で開く`coc-settings.json`に書きます。
-
-困ったら`:h coc-nvim`。
-
-## ステータスラインにメッセージを表示
-
-設定方法は`:h coc-status`を参考にしてください。
-
-僕は`lightline`を使っているので、それに合わせて次のように設定します。
-
-```vim
-" Use Nord theme
-" Show coc-vim status message
-let g:lightline = {
-      \ 'colorscheme': 'nord',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'cocstatus': 'coc#status'
-      \ },
-      \ }
-```
-
-`colorscheme`はお使いのものに変更してください。
-
-## 補完の挙動　
-
-特に何もしなくても補完が効きます。が、挙動を他のIDEやエディタのようにしたいので少し設定をいじります。
-
-具体的には、最初の候補がデフォルトで選択され、`return`で決定するようにします。
-
-`:CocConfig`で`coc-settings.json`を開き、以下を書き込みます。
-
-```
-{
-  "suggest.noselect": false
-}
-```
-
-## coc-java
-
-Java用の拡張です。インストール：
-
-```
-:CocInstall coc-java
-```
 
 # まとめ
 
@@ -126,4 +73,3 @@ coc.nvimをNeoVimにインストールしてみました。
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [MacにNode.jsをインストール](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09)
 - [最小限なcoc.nvim導入手順](https://blog.sgry.jp/entry/2020/03/14/194130)
-- [auto select of first item from the drop down menu #2221](https://github.com/neoclide/coc.nvim/issues/2221)
