@@ -1,7 +1,7 @@
 baseURL = "https://penguin-note.tech"
 languageCode = "en-us"
 title = "ペンギンのメモ帳"
-theme = "github-style"
+theme = "hugo-swift-theme"
 copyright = "© 2020. icedpenguin0504"
 googleAnalytics = "UA-148005169-2"
 
