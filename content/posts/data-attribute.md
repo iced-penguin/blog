@@ -1,6 +1,8 @@
 ---
 title: data属性を利用してJavascriptにデータを渡す
 date: 2020-08-22 21:07:14
+categories: [Programming]
+tags: [Javascript]
 ---
 
 

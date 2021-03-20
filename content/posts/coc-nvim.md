@@ -1,6 +1,8 @@
 ---
 title: coc.nvimをインストールしてみた
 date: 2020-10-10 10:23:29
+categories: [Programming]
+tags: [Vim]
 ---
 
 vimにcoc.nvimをインストールしてみたので、その方法をメモしておきます。

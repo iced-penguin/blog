@@ -2,6 +2,8 @@
 date: 2020-6-14
 updated: 2020-8-28
 title: Powerline-Shellを使ってみる
+categories: [Programming]
+tags: [iTerm2, Powerline-Shell]
 ---
 
 時々見かけるなんだかおしゃれな鉛筆みたいなプロンプトを取り入れたかった+カレントディレクトリの短縮表示をしたかったので、Powerline-Shellを導入してみました。

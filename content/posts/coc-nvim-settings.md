@@ -1,6 +1,8 @@
 ---
 title: "coc-nvimの設定晒す"
 date: 2020-10-24T21:52:35+09:00
+categories: [Programming]
+tags: [Vim]
 draft: true
 ---
 

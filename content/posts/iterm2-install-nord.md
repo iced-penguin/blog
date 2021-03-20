@@ -2,7 +2,8 @@
 date: 2020-6-9
 updated: 2020-8-30
 title: iterm2にNordテーマを適用してみた
- nord
+categories: [Programming]
+tags: [iTerm2, Nord]
 ---
 
 item2がすごいらしいとの噂だったので、ターミナルエミュレータをMac標準のものからiterm2に乗り換え、テーマをNordに変更しました。

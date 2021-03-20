@@ -1,7 +1,8 @@
 ---
 title: "jQueryでデータ属性（data-*）を扱う"
 date: 2020-11-14T22:15:41+09:00
-draft: false
+categories: [Programming]
+tags: [Javascript, jQuery]
 ---
 
 データ属性をjQueryで扱う方法をメモしておく。

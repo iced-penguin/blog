@@ -1,6 +1,8 @@
 ---
 date: 2020-8-4
 title: sshでサーバ上でコマンドを実行する
+categories: [Programming]
+tags: [UNIX]
 ---
 
 sshを使ってサーバ上でコマンドやバッチファイルを実行する方法メモ。

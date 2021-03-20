@@ -1,6 +1,8 @@
 ---
 title: IntelliJ IDEA に Nord を入れてみた
 date: 2020-05-02 16:20:27
+categories: [Programming]
+tags: [IntelliJ, Nord]
 ---
 
 Javaを書く必要が出てきたのでIntellij IDEA を導入しました。ところが、デフォルトのテーマがあまりしっくりこない。ということで、以前から目をつけていた「Nord」というテーマを導入しました。通常のテーマと同じ方法ではうまくいかなかったのでメモ。

@@ -2,6 +2,8 @@
 title: "CSVファイルの行数をカウントするPythonスクリプトを書いた"
 date: 2020-12-05T16:46:46+09:00
 draft: false
+categories: [Programming]
+tags: [Python]
 ---
 
 普通は`wc -l`などとすると思うが、値の中に改行が含まれていたりしてunixコマンドでやるには面倒臭そうな行数カウントをPythonでやってみた。

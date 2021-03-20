@@ -1,6 +1,8 @@
 ---
 title: VimにNordテーマを適用
 date: 2020-06-21 14:20:05
+categories: [Programming]
+tags: [Vim, Nord]
 ---
 
 VimにもNordをインストールしてみたので、その手順のメモです。

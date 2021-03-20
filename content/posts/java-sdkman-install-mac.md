@@ -1,6 +1,8 @@
 ---
 title: MacにSDKMANでJavaをインストールする
 date: 2020-09-11 22:31:47
+categories: [Programming]
+tags: [Java, SDKMAN]
 ---
 
 Javaのインストール方法がいくつもあって迷いがちなのでメモ。今回はSDKMANでMacにJavaを入れます。

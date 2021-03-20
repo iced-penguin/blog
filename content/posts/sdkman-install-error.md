@@ -1,6 +1,8 @@
 ---
 title: MacへのSDKMANのインストールでエラー
 date: 2020-09-11 23:17:49
+categories: [Programming]
+tags: [SDKMAN]
 ---
 
 `No such file or directory`みたいなエラーが吐かれたが、原因や解決法が同じと思われる人が見当たらなかったので記録を残しておきます。

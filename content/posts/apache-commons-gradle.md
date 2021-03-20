@@ -1,6 +1,8 @@
 ---
 date: 2020-08-18
 title: Apache Commons IO をGradleプロジェクトに導入
+categories: [Programming]
+tags: [Gradle]
 ---
 
 Apache Commons IO をGradleプロジェクトで使えるようにする

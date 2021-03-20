@@ -2,6 +2,8 @@
 date: 2020-8-28
 updated: 2020-9-1
 title: エラー解決メモ：Port 8080 is already in use
+categories: [Programming]
+tags: [Intellij, UNIX]
 ---
 
 ポートが既に使われていると怒られたが、そのポートを何が使っているかわからない時の解決方法。

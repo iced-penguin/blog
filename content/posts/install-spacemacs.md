@@ -2,6 +2,8 @@
 date: 2020-5-6
 updated: 2020-8-28
 title: Macにspacemacsを入れてみた
+categories: [Programming]
+tags: [Spacemacs]
 ---
 
 spacemacsが何やらすごいらしいという噂を聞き、いてもたってもいられなくなりインストールしてしまいました。

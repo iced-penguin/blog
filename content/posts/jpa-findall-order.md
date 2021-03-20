@@ -1,6 +1,8 @@
 ---
 title: JpaRepository#findAllを特定のフィールドでソートしたい
 date: 2020-05-20 21:47:59
+categories: [Programming]
+tags: [JPA, Spring]
 ---
 
 SpringBootでJPAを使ってデータベースアクセスを実現することが多い。

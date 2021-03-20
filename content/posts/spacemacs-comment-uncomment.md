@@ -1,6 +1,8 @@
 ---
 date: 2020-5-16
 title: spacemacsでコメント・アンコメント
+categories: [Programming]
+tags: [Spacemacs]
 ---
 
 spacemacsでも（行頭に記号を挿入するのではなく）コマンドでコメント/アンコメントをしたい。
