@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --theme=hugo-swift-theme --gc --minify"
+command = "hugo --theme=notepadium --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.76.3"

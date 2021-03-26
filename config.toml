@@ -1,7 +1,7 @@
 baseURL = "https://penguin-note.tech"
 languageCode = "en-us"
 title = "Penguin's blog"
-theme = "hugo-swift-theme"
+theme = "notepadium"
 copyright = "© 2020. icedpenguin0504"
 googleAnalytics = "UA-148005169-2"
 
