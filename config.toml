@@ -5,11 +5,6 @@ theme = "notepadium"
 copyright = "© 2020. icedpenguin0504"
 googleAnalytics = "UA-148005169-2"
 
-[params]
-  [params.designer]
-    name = "Weru"
-    url = "https://www.linkedin.com/in/dan-weru-profile/"
-
 [permalinks]
   posts = "/:filename"
 
