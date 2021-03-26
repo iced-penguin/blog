@@ -17,3 +17,8 @@ googleAnalytics = "UA-148005169-2"
     name = "Tags"
     url = "tags/"
     weight = 10
+# for theme notepadium
+
+[params.nav]
+showCategories = true
+showTags = true
