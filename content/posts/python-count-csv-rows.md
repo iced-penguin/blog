@@ -16,7 +16,7 @@ tags: [Python]
 
 コマンドライン引数としてCSVファイルのパスを与えると、その行数を表示する。
 
-```python
+```sh
 python count_csv_rows.py sample.csv
 ```
 
@@ -24,7 +24,7 @@ python count_csv_rows.py sample.csv
 
 `count_csv_rows.py`：
 
-```python
+```
 import sys
 import csv
 

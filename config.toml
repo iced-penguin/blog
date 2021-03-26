@@ -8,16 +8,12 @@ googleAnalytics = "UA-148005169-2"
 [permalinks]
   posts = "/:filename"
 
-[menu]
-  [[menu.main]]
-    name = "Categories"
-    url = "categories/"
-    weight = 9
-  [[menu.main]]
-    name = "Tags"
-    url = "tags/"
-    weight = 10
 # for theme notepadium
+
+[params.syntax]
+use = "hljs"  # 1. prismjs 2. hljs 3. none
+theme = "nord"
+darkTheme = "nord"
 
 [params.nav]
 showCategories = true
