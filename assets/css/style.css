@@ -258,6 +258,8 @@ b {
 
 .header.wrap {
   overflow: hidden;
+  max-width: 744px;
+  margin: auto;
 }
 
 .header.wrap,
