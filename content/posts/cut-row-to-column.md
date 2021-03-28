@@ -4,7 +4,7 @@ date: 2021-03-28T19:52:57+09:00
 categories: [Programming]
 tags: [Unix]
 toc: false
-draft: true
+draft: false
 ---
 
 # 概要
