@@ -4,7 +4,7 @@ date: 2021-04-18T17:32:13+09:00
 categories: [Programming]
 tags: [Shell, Git]
 toc: false
-draft: true
+draft: false
 ---
 
 # 概要
