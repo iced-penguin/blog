@@ -208,7 +208,7 @@ func createSession() *session.Session {
 
 ## MinIO上にバケットとファイルを用意
 
-`[localhost:9090](http://localhost:9090)` にアクセスするとMinIOの画面が開く。アクセスキーとシークレットキーを要求されるので、それぞれに `docker-compose.yml` で指定した `MINIO_ACCESS_KEY` 、`MINIO_SECRET_KEY` の値を入力すれば入れる。
+`http://localhost:9090` にアクセスするとMinIOの画面が開く。アクセスキーとシークレットキーを要求されるので、それぞれに `docker-compose.yml` で指定した `MINIO_ACCESS_KEY` 、`MINIO_SECRET_KEY` の値を入力すれば入れる。
 
 ![](https://drive.google.com/uc?export=view&id=1ofw5PgohS-E2X1dmdoSnUNaw7tGkZz-L)
 
