@@ -3,6 +3,7 @@
 [Penguin's blog](https://penguin-note.tech/)
 
 A blog where I wirte about all sorts of things.
+(Written in Japanese)
 
 ## Write an article
 
