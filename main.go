@@ -22,13 +22,13 @@ func createNewFile() error {
 	out, _ := exec.Command("hugo", "new", filename).CombinedOutput()
 	fmt.Println(string(out))
 
-	if err := overwriteFile(baseFilename, category); err != nil {
+	if err := insertCategory(baseFilename, category); err != nil {
 		return err
 	}
 	return nil
 }
 
-func overwriteFile(baseFilename, category string) error {
+func insertCategory(baseFilename, category string) error {
 	filename := fmt.Sprintf("content/posts/%s.md", baseFilename)
 	b, err := os.ReadFile(filename)
 	if err != nil {
