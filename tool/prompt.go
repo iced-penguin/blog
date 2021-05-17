@@ -1,10 +1,13 @@
 package tool
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var categories = map[string]string{
 	"1": "Programming",
 	"2": "DB",
+	"3": "PC",
 }
 
 func Prompt() (filename, category string) {
@@ -18,7 +21,7 @@ func inputFilename() string {
 }
 
 func inputCategory() string {
-	key := input("Choose category (1: Programming, 2: DB)")
+	key := input("Choose category (1: Programming, 2: DB, 3: PC)")
 	category, ok := categories[key]
 	if !ok {
 		return inputCategory()
