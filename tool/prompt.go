@@ -10,18 +10,24 @@ var categories = map[string]string{
 	"3": "PC",
 }
 
-func Prompt() (filename, category string) {
+type Prompt struct{}
+
+func NewPrompt() Prompt {
+	return Prompt{}
+}
+
+func (p Prompt) Input() (filename, category string) {
 	filename = inputFilename()
 	category = inputCategory()
 	return
 }
 
 func inputFilename() string {
-	return input("Enter file name (without extension)")
+	return inputEach("Enter file name (without extension)")
 }
 
 func inputCategory() string {
-	key := input("Choose category (1: Programming, 2: DB, 3: PC)")
+	key := inputEach("Choose category (1: Programming, 2: DB, 3: PC)")
 	category, ok := categories[key]
 	if !ok {
 		return inputCategory()
@@ -29,7 +35,7 @@ func inputCategory() string {
 	return category
 }
 
-func input(msg string) (in string) {
+func inputEach(msg string) (in string) {
 	fmt.Println(msg)
 	fmt.Print(">>> ")
 	fmt.Scan(&in)

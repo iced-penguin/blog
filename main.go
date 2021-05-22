@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
-	"strings"
+	"path/filepath"
 
 	"github.com/icedpenguin0504/blog/tool"
 )
@@ -17,29 +17,27 @@ func main() {
 }
 
 func createNewFile() error {
-	baseFilename, category := tool.Prompt()
+	prompt := tool.NewPrompt()
+
+	baseFilename, category := prompt.Input()
 	filename := fmt.Sprintf("posts/%s.md", baseFilename)
-	out, _ := exec.Command("hugo", "new", filename).CombinedOutput()
+
+	out, err := exec.Command("hugo", "new", filename).CombinedOutput()
+	if err != nil {
+		return fmt.Errorf("failed to create new file: %v", err)
+	}
 	fmt.Println(string(out))
 
-	if err := insertCategory(baseFilename, category); err != nil {
-		return err
-	}
-	return nil
-}
-
-func insertCategory(baseFilename, category string) error {
-	filename := fmt.Sprintf("content/posts/%s.md", baseFilename)
-	b, err := os.ReadFile(filename)
+	absFilepath, err := filepath.Abs("./conten/" + filename)
 	if err != nil {
-		return err
+		return fmt.Errorf("failed to get absolute file path: %v", err)
 	}
 
-	oldLine := "categories: []"
-	newLine := fmt.Sprintf("categories: [%s]", category)
-	s := strings.Replace(string(b), oldLine, newLine, 1)
+	fileEditor := tool.NewFileEditor(absFilepath)
 
-	os.WriteFile(filename, []byte(s), 0644)
+	if err := fileEditor.AddCategory(category); err != nil {
+		return fmt.Errorf("failed to add category: %v", err)
+	}
 
 	return nil
 }
