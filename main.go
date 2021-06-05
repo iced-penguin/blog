@@ -28,7 +28,7 @@ func createNewFile() error {
 	}
 	fmt.Println(string(out))
 
-	absFilepath, err := filepath.Abs("./conten/" + filename)
+	absFilepath, err := filepath.Abs("./content/" + filename)
 	if err != nil {
 		return fmt.Errorf("failed to get absolute file path: %v", err)
 	}
