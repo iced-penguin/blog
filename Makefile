@@ -1,2 +1,5 @@
 new:
-	go run main.go
+	./tool/main new
+
+build-tool:
+	cd tool && go build main.go 
