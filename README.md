@@ -20,7 +20,7 @@ make new
 
 The file will be placed in `content/posts/`
 
-Note that the file name must not have an extension. The category names that can be used are listed in `scripts/categories.txt`.
+Note that the file name must not have an extension. The category names can be used are listed in `scripts/categories.txt`.
 
 ### Check
 
