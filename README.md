@@ -10,7 +10,7 @@ This blog is created using Hugo, a static site generator.
 
 ## Note to self
 
-## Write an article
+### Write an article
 
 Create a file as follows.
 
