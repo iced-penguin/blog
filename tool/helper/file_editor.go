@@ -6,15 +6,15 @@ import (
 	"strings"
 )
 
-type FileEditor struct {
+type Article struct {
 	filename string
 }
 
-func NewFileEditor(absFilepath string) FileEditor {
-	return FileEditor{filename: absFilepath}
+func NewArticle(absFilepath string) Article {
+	return Article{filename: absFilepath}
 }
 
-func (f FileEditor) AddCategory(category string) error {
+func (f Article) AddCategory(category string) error {
 	buf, err := os.ReadFile(f.filename)
 	if err != nil {
 		return fmt.Errorf("cannot read file: %v", err)

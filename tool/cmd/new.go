@@ -36,9 +36,9 @@ func createNewFile() error {
 		return fmt.Errorf("failed to get absolute file path: %v", err)
 	}
 
-	fileEditor := helper.NewFileEditor(absFilepath)
+	article := helper.NewArticle(absFilepath)
 
-	if err := fileEditor.AddCategory(category); err != nil {
+	if err := article.AddCategory(category); err != nil {
 		return fmt.Errorf("failed to add category: %v", err)
 	}
 
