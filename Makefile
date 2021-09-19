@@ -1,8 +1,5 @@
 new:
-	./tool/main new
+	hugo-helper new
 
 check:
-	./tool/main check
-
-build-tool:
-	cd tool && go build main.go 
+	hugo-helper check
