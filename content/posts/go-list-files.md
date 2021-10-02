@@ -34,6 +34,7 @@ func main() {
 	files, err := listFiles(root)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
+        os.Exit(1)
 	}
 	for _, file := range files {
 		fmt.Println(file)
