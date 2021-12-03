@@ -2,7 +2,7 @@
 title: "cutで列指定する方法をいくつか"
 date: 2021-03-26T19:01:44+09:00
 categories: [Programming]
-tags: [Unix]
+tags: [シェルスクリプト]
 toc: false
 ---
 

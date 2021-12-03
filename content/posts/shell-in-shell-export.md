@@ -2,7 +2,7 @@
 title: "exportを実行するシェルスクリプトを別シェルスクリプト内で実行する"
 date: 2021-08-12T20:01:20+09:00
 categories: [Programming]
-tags: [Unix]
+tags: [シェルスクリプト]
 toc: false
 draft: false
 ---
