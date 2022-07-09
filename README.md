@@ -1,6 +1,8 @@
 # Penguin's blog
 
-[Penguin's blog](https://penguin-note.tech/)
+~[Penguin's blog](https://penguin-note.tech/)~
+
+[Penguin's blog](https://melodic-starship-2689f3.netlify.app/)
 
 A blog where I write about all sorts of things.
 (Written in Japanese)
